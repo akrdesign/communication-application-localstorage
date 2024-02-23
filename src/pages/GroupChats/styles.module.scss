@@ -1,0 +1,50 @@
+.container {
+  margin-top: 30px;
+  padding: 20px;
+
+  .chat_container {
+    width: 100%;
+    min-height: 70vh;
+    border: 1px solid black;
+    margin: 20px 0;
+    padding: 20px;
+
+    li {
+      list-style: none;
+
+      span {
+        font-weight: 500;
+
+        &:last-child {
+          text-transform: none;
+        }
+      }
+    }
+  }
+
+  .input_wrapper {
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+    align-items: center;
+    gap: 60px;
+
+    .input {
+      width: 100%;
+
+      label {
+        width: 20%;
+      }
+
+      div {
+        width: 100%;
+      }
+    }
+
+    .button_wrapper {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      justify-content: space-between;
+    }
+  }
+}

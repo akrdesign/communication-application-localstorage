@@ -1,0 +1,33 @@
+@import "../../styles/index.scss";
+
+.container {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+
+    li {
+      list-style: none;
+      border: 1px solid $heavy_metal;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: $heavy_metal;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 20px;
+      }
+
+      &:last-child {
+        padding: 20px;
+      }
+    }
+  }
+}

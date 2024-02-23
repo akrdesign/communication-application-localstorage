@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    label {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    input {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .error {
+        color: #ff2929;
+        margin-top: 5px;
+    }
+}

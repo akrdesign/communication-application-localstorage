@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  form {
+    width: 30%;
+    display: grid;
+    place-items: center;
+    gap: 20px;
+
+    .inputs__wrapper {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+
+    .error {
+      color: #ff2929;
+      margin-top: 5px;
+    }
+  }
+}

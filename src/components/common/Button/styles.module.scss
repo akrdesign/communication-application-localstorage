@@ -1,0 +1,21 @@
+@import "../../../styles/utils/variables";
+
+.button {
+  width: 120px;
+  height: 50px;
+  border: 1px solid $heavy_metal;
+  color: $heavy_metal;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: $silver_chalice;
+  font-size: 16px;
+  transition: all 0.3s $easeOutExpo;
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+
+  &:hover {
+    background-color: $heavy_metal;
+    color: $white;
+  }
+}
